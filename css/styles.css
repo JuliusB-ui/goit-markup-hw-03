@@ -7,27 +7,54 @@
   --ocean: #404BBF;
 }
 
+/* body/general format*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  width: 1440px;
+}
+ .selection-p{
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  background-color: #FFFFFF;
+ }
+
+ /* hidden */
+ .hidden{
+  display: none;
+ }
+
 /* navy colored texts */
 .logo-head,
 .nav .list .link,
 .list,
 .section-title,
-.item-title,
-.pf-item-title {
+.item-title {
   color: var(--navy);
 }
 
 /* remove list style and padding */
-.list,
-.filter,
-.pf-lists {
+.list {
   list-style: none;
   padding-left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center ;
+  gap: 12px;
 }
 
 /* link decoration */
 header,
-.list-item,
 .link {
   text-decoration: none;
 }
@@ -48,17 +75,11 @@ header,
   color: var(--ocean);
 }
 
-/* body/general format*/
-body,
-.body-style,
-.team-position{
-  font-family: "Roboto", sans-serif;
-  color: var(--slate);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  background-color: #FFFFFF;
+.header {
+  display:flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: flex-end;
 }
 
 /* TEXT FORMATS*/
@@ -73,8 +94,7 @@ body,
 }
 
 /* h3 */
-.item-title,
-.pf-item-title {
+.item-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -138,6 +158,12 @@ letter-spacing: 0.32px;
   color: #FFFFFF;
 }
 
+/* section-2 */
+.section-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .hero-button:hover,
 .hero-button:active,
 .filter-button:active,
@@ -147,18 +173,6 @@ letter-spacing: 0.32px;
   background-color: var(--ocean);
   color: #FFFFFF
 }
-
-/* section-2 */
-.selection-p {
-  color: var(--slate);
-}
-
-/* section-3
-.report,
-.apps,
-.articles{
-  border: 10px solid var(--black);
-} */
 
 /* section4 */
 .section-four{
@@ -188,7 +202,10 @@ letter-spacing: 0.32px;
 }
 
 /* item format */
-.pf-item {
+.pf-item,
+.report,
+.apps,
+.articles {
   border: 1px solid var(--cornflower);
   background: #FFFFFF;
 }
