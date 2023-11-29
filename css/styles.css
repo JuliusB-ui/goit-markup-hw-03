@@ -113,6 +113,11 @@ header,
   border: 0;
 }
 
+/* image */
+img {
+  display: block;
+}
+
 .nav .link,
 .footer .link {
   color: var(--iris);
