@@ -185,9 +185,6 @@ img {
   padding: 188px 0;
 }
 
-.hero-section .container {
-  display: block;
-}
 .hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -222,7 +219,19 @@ img {
 
 .section .container .list {
   display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 48px) / 3);
 }
+.section-two .section-title {
+  margin-bottom: 8px;
+}
+
+/* section 3 */
+.section-three .section-title {
+  margin-bottom: 8px;
+}
+
+
 
 /* section4 */
 .section-four{
