@@ -224,7 +224,7 @@ img {
 }
 
 .section-two .list {
-flex-basis: calc((100% - 72px) / 4);
+width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-two .item-title {
@@ -237,7 +237,7 @@ flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-three .list {
-flex-basis: calc((100% - 3 * 16px) / 3);
+width: calc((100% - 3 * 16px) / 3);
 }
 
 /* section4 */
@@ -252,7 +252,7 @@ flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .section-four .list {
- flex-basis: calc((100% - 72px) / 4);
+ width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-four .team-list {
