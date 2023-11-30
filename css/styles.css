@@ -223,7 +223,7 @@ img {
 }
 
 .section-two .list {
-  flex-basis: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-two .item-title {
@@ -236,11 +236,8 @@ img {
 }
 
 .section-three .list {
-  flex-basis: calc((100 % - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
-
-
-
 
 /* section4 */
 .section-four{
