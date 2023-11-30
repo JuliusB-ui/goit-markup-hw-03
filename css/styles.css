@@ -162,6 +162,7 @@ img {
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .container .nav .list,
@@ -198,6 +199,7 @@ img {
   color: #FFFFFF;
   min-width: 169px;
   height: 56px;
+  display: block;
 }
 
 .hero-button:hover,
@@ -222,7 +224,7 @@ img {
 }
 
 .section-two .list {
-flex-basis: calc((100% - 3 * 24px) / 3);
+flex-basis: calc((100%-3*24px)/4);
 }
 
 .section-two .item-title {
@@ -235,7 +237,7 @@ flex-basis: calc((100% - 3 * 24px) / 3);
 }
 
 .section-three .list {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100%-3*16px)/3);
 }
 
 /* section4 */
@@ -250,7 +252,7 @@ flex-basis: calc((100% - 3 * 24px) / 3);
 }
 
 .section-four {
-  flex-basis: calc((100 % - 3 * 24px) / 4);
+  flex-basis: calc((100%-3*24px)/4);
 }
 
 .section-four .team-list {
