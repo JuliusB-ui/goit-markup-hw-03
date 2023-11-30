@@ -220,16 +220,25 @@ img {
 .section .container .list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 48px) / 3);
 }
-.section-two .section-title {
+
+.section-two .list {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.section-two .item-title {
   margin-bottom: 8px;
 }
 
 /* section 3 */
 .section-three .section-title {
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
+
+.section-three .list {
+  flex-basis: calc((100 % - 48px) / 3);
+}
+
 
 
 
@@ -266,9 +275,7 @@ img {
 
 /* item format */
 .pf-item,
-.report,
-.apps,
-.articles {
+.wwd {
   border: 1px solid var(--cornflower);
   background: #FFFFFF;
 }
