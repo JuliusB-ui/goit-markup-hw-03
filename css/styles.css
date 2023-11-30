@@ -223,7 +223,7 @@ img {
 }
 
 .section-two .list {
-flex-basis: calc((100% - 3 * 24px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 3);
 }
 
 .section-two .item-title {
@@ -231,10 +231,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* section 3 */
-.section-three {
-}
-
-.section-title {
+.section-three .section-title {
   margin-bottom: 72px;
 }
 
