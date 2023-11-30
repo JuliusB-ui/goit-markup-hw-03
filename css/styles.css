@@ -131,10 +131,16 @@ img {
 .header {
   display: flex;
   width: 1440px;
-  height: 72px;
   flex-shrink: 0;
   background-color: green;
   align-items: center;
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.header .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .nav .link {
@@ -143,21 +149,23 @@ img {
 
 /* nav format */
 .nav .list .link {
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   margin-right: 332px;
+  align-items: center;
 }
 
 .container .nav .list,
 .container .contacts .list {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
 }
