@@ -10,6 +10,7 @@
 * {
 margin: 0 auto;
 padding: 0;
+max-width: 1440px;
 }
 
 .section {
@@ -200,6 +201,7 @@ img {
   min-width: 169px;
   height: 56px;
   display: block;
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -221,10 +223,11 @@ img {
 .section .container .list {
   display: flex;
   gap: 24px;
+  width: 1158px;
 }
 
 .section-two .list {
-width: calc((100% - 3 * 24px) / 4);
+width: calc((100% - 72px) / 4);
 }
 
 .section-two .item-title {
