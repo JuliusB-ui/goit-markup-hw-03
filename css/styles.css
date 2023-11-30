@@ -120,7 +120,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  border: 0;
+  border-radius: 4px;
 }
 
 /* image */
@@ -191,6 +191,7 @@ img {
 /* Hero/Section 1 Format*/
 .hero-section {
   background-color: var(--navy);
+  padding: 188px 0;
 }
 .hero-title {
     font-size: 56px;
@@ -199,10 +200,13 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    max-width: 496px;
 }
 .hero-button{
   background-color: var(--iris);
   color: #FFFFFF;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
