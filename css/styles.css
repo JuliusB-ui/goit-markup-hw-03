@@ -231,7 +231,7 @@ flex-basis: calc((100% - 3 * 24px) / 3);
 }
 
 /* section 3 */
-.section-three .section-title {
+ .section-title {
   margin-bottom: 72px;
 }
 
@@ -244,14 +244,27 @@ flex-basis: calc((100% - 3 * 24px) / 3);
   text-align: center;
   background-color: var(--cloud);
   padding: 120px 0;
-  margin-bottom: 72px;
 }
 
 .team-list {
   background-color: #FFFFFF;
 }
 
+.section-four {
+  flex-basis: calc((100 % - 3 * 24px) / 4);
+}
 
+.section-four .team-list {
+  border-radius: 0 0 4px 4px;
+}
+
+.section-four .container {
+  padding: 32px 0;
+}
+
+.item-title {
+  margin-bottom: 8px;
+}
 
 /* Footer */
 .footer,
@@ -261,6 +274,12 @@ flex-basis: calc((100% - 3 * 24px) / 3);
 
 .footer{
   background-color: var(--navy);
+  padding: 100px 0;
+}
+
+.footer .link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* Portfolio */
