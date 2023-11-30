@@ -211,7 +211,8 @@ img {
 .hero-button:focus,
 .filter-button:focus  {
   background-color: var(--ocean);
-  color: #FFFFFF
+  color: #FFFFFF ;
+  border-style: 1px solid transparent;
 }
 
 
@@ -223,7 +224,7 @@ img {
 .section .container .list {
   display: flex;
   gap: 24px;
-  width: 1158px;
+  width: 1128px;
 }
 
 .section-two .list {
@@ -295,20 +296,33 @@ width: calc((100% - 3 * 16px) / 3);
 .portfolio .container{
   display: block;
 }
-.filter,
-.items {
+
+.portfolio .container .filter {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  max-width: 586px;
+  margin-bottom: 72px;
+}
+
+.portfolio .container .items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .filter-button{
   background-color: var(--cloud);
   color: var(--iris);
   text-align: center;
+  padding: 12px 24px;
 }
 
 /* item format */
 .pf-item,
-.wwd {
+.wwd,
+.filter-button {
   border: 1px solid var(--cornflower);
   background: #FFFFFF;
 }
