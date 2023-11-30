@@ -31,15 +31,6 @@ body {
   background-color: #FFFFFF;
 }
 
- .selection-p{
-  font-family: "Roboto", sans-serif;
-  color: var(--slate);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  background-color: #FFFFFF;
- }
 
  /* hidden */
 .visually-hidden {
@@ -169,7 +160,6 @@ img {
 
 .nav {
   display: flex;
-  flex-direction: row;
   margin-right: 332px;
   align-items: center;
 }
@@ -196,8 +186,7 @@ img {
 }
 
 .hero-section .container {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 .hero-title {
     font-size: 56px;
@@ -225,6 +214,16 @@ img {
   color: #FFFFFF
 }
 
+
+/* section 2 */
+.section-two {
+  padding: 120px 0;
+}
+
+.section .container .list {
+  display: flex;
+}
+
 /* section4 */
 .section-four{
   text-align: center;
@@ -243,7 +242,6 @@ img {
 .footer{
   background-color: var(--navy);
 }
-
 
 /* Portfolio */
 
