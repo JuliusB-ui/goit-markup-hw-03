@@ -231,7 +231,10 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* section 3 */
-.section-three .section-title {
+.section-three {
+}
+
+.section-title {
   margin-bottom: 72px;
 }
 
@@ -243,10 +246,15 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 .section-four{
   text-align: center;
   background-color: var(--cloud);
+  padding: 120px 0;
+  margin-bottom: 72px;
 }
+
 .team-list {
   background-color: #FFFFFF;
 }
+
+
 
 /* Footer */
 .footer,
