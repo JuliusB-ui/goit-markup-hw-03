@@ -239,8 +239,8 @@ img {
   margin-bottom: 72px;
 }
 
-.section-three .list .wwd {
-width: calc((100% - 3 * 16px) / 3);
+.wwd {
+  width: calc((100% - 48px) / 3);
 }
 
 /* section4 */
@@ -338,7 +338,7 @@ width: calc((100% - 3 * 16px) / 3);
   border-top: none;
 }
 
-.portfolio .items .pf-item {
+.pf-item {
   width: calc((100% - 48px) / 3);
 }
 
