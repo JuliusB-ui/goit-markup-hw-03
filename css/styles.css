@@ -328,6 +328,6 @@ width: calc((100% - 3 * 16px) / 3);
 
 .filter-button:active,
 .filter-button:focus,
-.filter-button:hover{
-  border-style: 1px solid transparent;
+.filter-button:hover {
+  border: 1px solid transparent;
 }
