@@ -335,6 +335,10 @@ width: calc((100% - 3 * 16px) / 3);
 .pf-item .container {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
+  border-top: none;
+}
+
+.portfolio .list-items .pf-item {
   width: calc((100% - 48px) / 3);
 }
 
