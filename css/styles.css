@@ -212,7 +212,6 @@ img {
 .filter-button:focus  {
   background-color: var(--ocean);
   color: #FFFFFF ;
-  border-style: 1px solid transparent;
 }
 
 
@@ -325,4 +324,10 @@ width: calc((100% - 3 * 16px) / 3);
 .filter-button {
   border: 1px solid var(--cornflower);
   background: #FFFFFF;
+}
+
+.filter-button:active,
+.filter-button:focus,
+.filter-button:hover{
+  border-style: 1px solid transparent;
 }
