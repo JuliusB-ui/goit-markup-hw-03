@@ -226,8 +226,8 @@ img {
   width: 1128px;
 }
 
-.section-two .list {
-width: calc((100% - 72px) / 4);
+.selection {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two .item-title {
