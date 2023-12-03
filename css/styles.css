@@ -333,6 +333,8 @@ width: calc((100% - 3 * 16px) / 3);
 }
 
 .pf-item .container {
-  padding-style: 32px 16px;
+  padding: 32px 16px;
   border: 1px solid var(--cornflower);
+  width: calc((100% - 48px) / 3);
 }
+
