@@ -331,3 +331,8 @@ width: calc((100% - 3 * 16px) / 3);
 .filter-button:hover {
   border: 1px solid transparent;
 }
+
+.pf-item .container {
+  padding-style: 32px 16px;
+  border: 1px solid var(--cornflower);
+}
